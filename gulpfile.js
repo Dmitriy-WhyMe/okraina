@@ -19,8 +19,8 @@ var path = {
 		css: './app/css/',
 		gulpfile: './gulpfile.js',
 		js: './app/js/',
-		jsLibs: ['./app/libs/smartmenus/jquery.smartmenus.min.js', './app/libs/slick-carousel/slick/slick.min.js', './app/libs/Magnific-Popup-master/dist/jquery.magnific-popup.js', './app/libs/baron/baron.js'],
-		cssLibs: ['./app/libs/smartmenus/css/sm-core-css.css', './app/libs/smartmenus/css/sm-clean/sm-clean.css', './app/libs/slick-carousel/slick/slick.css', './app/libs/Magnific-Popup-master/dist/magnific-popup.css', './app/libs/baron/baron.css'],
+		jsLibs: ['./app/libs/smartmenus/jquery.smartmenus.min.js', './app/libs/slick-carousel/slick/slick.min.js', './app/libs/Magnific-Popup-master/dist/jquery.magnific-popup.js', './app/libs/smooth-scrollbar-develop/dist/smooth-scrollbar.js'],
+		cssLibs: ['./app/libs/smartmenus/css/sm-core-css.css', './app/libs/smartmenus/css/sm-clean/sm-clean.css', './app/libs/slick-carousel/slick/slick.css', './app/libs/Magnific-Popup-master/dist/magnific-popup.css'],
 		deleteLibs: ['./app/js/libs.js', './app/css/libs.css']
 	}
 }

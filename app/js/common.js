@@ -1,10 +1,7 @@
 (function ($) {
-	window.onload = function() {	
-		window.dima = baron({
-			root: '.baron',
-			scroller: '.baron__scroller',
-			bar: '.baron__bar'
-		}).autoUpdate();         
-	};
-	baron('.baron__scroller');
+	$(document).ready(function () {
+		$('.slider').slick();
+	});
 })(jQuery);
+
+
