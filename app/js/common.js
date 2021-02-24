@@ -4,8 +4,16 @@
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			arrows: false,
-			fade: true
-		  });
+			fade: true,
+			asNavFor: '.slider-nav'
+		});
+		$('.slider-nav').slick({
+			slidesToShow: 2,
+			slidesToScroll: 1,
+			arrows: false,
+			asNavFor: '.slider-for',
+			focusOnSelect: true
+		});
 	});
 })(jQuery);
 
