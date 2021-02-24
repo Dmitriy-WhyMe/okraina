@@ -9,6 +9,14 @@ html
 
 		main.page-container
 				.corporate_network
+					.parallax_1(id="scene_1")
+						img(src=img+"paralax_1_1.png", alt="" class="paralax_1_1" data-depth="1.5")
+						img(src=img+"paralax_1_2.png", alt="" class="paralax_1_2" data-depth="1.6")
+						img(src=img+"paralax_1_3.png", alt="" class="paralax_1_3" data-depth="1.7")
+						img(src=img+"paralax_1_4.png", alt="" class="paralax_1_4" data-depth="1.5")
+						img(src=img+"paralax_1_5.png", alt="" class="paralax_1_5" data-depth="1.6")
+						img(src=img+"paralax_1_6.png", alt="" class="paralax_1_6" data-depth="1.7")
+						img(src=img+"paralax_1_7.png", alt="" class="paralax_1_7" data-depth="1.5")
 					.container
 						.header
 							.menu
@@ -40,7 +48,7 @@ html
 							.header-phone 
 								img(src=img+"phone-call.svg", alt="")
 								a(href="tel:+88005551807").header-phone-txt 8-800-555-18-07
-						.corporate_network_fl
+						.corporate_network_fl(data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000")
 							.corporate_network_left
 								.heshteg_dop #Фирменная сеть
 								h1 Окраина<br>вкуснее
@@ -57,20 +65,22 @@ html
 									.corporate_number_r
 										.corporate_number_top до<br><span class="price_span">400 000 ₽</span><br>Чистая прибыль
 										.corporate_number_bot <span class="six_span">6-12</span><span class="mounth_span"> месяцев</span><br>Окупаемость
+							.corporate_network_right
+								img(src=img+"img_main.png", alt="")
 						.corporate_network_image_block
-							img(src=img+"Rectangle 2.png", alt="")
-							img(src=img+"Rectangle 3.png", alt="")
-							img(src=img+"Rectangle 4.png", alt="")
+							img(src=img+"Rectangle 2.png", alt="" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="800")
+							img(src=img+"Rectangle 3.png", alt="" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="800")
+							img(src=img+"Rectangle 4.png", alt="" data-aos="zoom-in" data-aos-offset="500" data-aos-duration="800")
 				.partnership
 					.container
-						.partnership_fl
-							.partnership_left
+						.partnership_fl(data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000")
+							.partnership_left(data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000")
 								.partnership_left_txt_open мы уже открыли!
 								.partnership_left_txt_number 37
 								.partnership_left_txt_magazine магазинов
 								.heshteg_grey #онлайн-счётчик
 								a(class="btn_main" id="linkHref" href="#" target="_blank") Стать партнёром
-							.partnership_right
+							.partnership_right(data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000")
 								.heshteg_grey #Мы готовы рассмотреть партнерство
 								.oblast_block
 									.oblast_block_l
@@ -99,7 +109,7 @@ html
 												a(href="#") Всеволожск
 				.about
 					.container
-						.about_fl
+						.about_fl(data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000")
 							img(src=img+"Rectangle 14.png", alt="")
 							.about_right
 								<section data-scrollbar id="my-scrollbar">
@@ -112,14 +122,18 @@ html
 										</div>
 								</section>
 				.model
+					.parallax_2(id="scene_2")
+						img(src=img+"paralax_2_1.png", alt="" class="paralax_2_1" data-depth="1.5")
+						img(src=img+"paralax_2_2.png", alt="" class="paralax_2_2" data-depth="1.6")
+						img(src=img+"paralax_2_3.png", alt="" class="paralax_2_3" data-depth="1.7")
 					.container
-						.model_fl
+						.model_fl(data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000")
 							.model_fl_money Паушальный взнос<br><span class="number">200 000 ₽</span>
 							.model_fl_royal Роялти<br><span class="number">10 000 ₽</span>
 							.model_fl_home Помещение<span></spa><span class="txt">от</span><span class="number">20</span><span class="txt">м2</span></span>
 							a(class="btn_main" id="linkHref" href="#" target="_blank") Получить финансовую модель
 						.model_fl_1
-							.model_block_l
+							.model_block_l(data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000")
 								.model_block_l_cart
 									img(src=img+"Rectangle 22.png", alt="")
 									.corner
@@ -137,7 +151,7 @@ html
 											.row_1 Чистая прибыль: <span class="bold_600_green">150 000 – 250 000 ₽</span>
 											.row_1 Срок окупаемости: <span class="bold_600_green">6 – 10 месяцев</span>
 								a(class="btn_main" id="linkHref" href="#" target="_blank") Получить финансовую модель
-							.model_block_r
+							.model_block_r(data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000")
 								.model_block_r_cart
 									img(src=img+"Rectangle 24.png", alt="")
 									.magazine
@@ -203,18 +217,33 @@ html
 												span Магазин 3
 												img(src=img+"99.svg", alt="")
 											.p_main Фирменные магазины Окраина вкуснее – это настоящая находка для ценителей мясной гастрономии. Здесь вы найдёте колбасы, сосиски, деликатесы, пельмени, вареники, блинчики на самый взыскательный вкус.<br>Фирменные магазины Окраина вкуснее – это настоящая находка для ценителей мясной гастрономии. Здесь вы найдёте колбасы, сосиски, деликатесы, пельмени, вареники, блинчики на самый взыскательный вкус.
-						.slider-nav 
-							a.sliders-nav
-								img(src=img+"Rectangle_40.png", alt="")
-							a.sliders-nav
-								img(src=img+"Rectangle_41.png", alt="")
-							a.sliders-nav
-								img(src=img+"Rectangle_40.png", alt="")
+						.flex_slider_nav
+							.slider-nav
+								a.sl
+									img(src=img+"Rectangle_40.png", alt="")
+									.slider-nav_title Магазин 2
+								a.sl
+									img(src=img+"Rectangle_41.png", alt="")
+									.slider-nav_title Магазин 3
+								a.sl
+									img(src=img+"Rectangle_40.png", alt="")
+									.slider-nav_title Магазин 1
+							.slider-nav-btn
+								a.arrow_prev <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.93402e-07 8L13.5 15.7942L13.5 0.205771L3.93402e-07 8Z" fill="white"/></svg>
+								a.arrow_next <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 8L0.499999 15.7942L0.5 0.205771L14 8Z" fill="white"/></svg>
 				.news
+					.parallax_3(id="scene_3")
+						img(src=img+"paralax_3_1.png", alt="" class="paralax_3_1" data-depth="1.2")
+						img(src=img+"paralax_3_2.png", alt="" class="paralax_3_2" data-depth="1.3")
+						img(src=img+"paralax_3_3.png", alt="" class="paralax_3_3" data-depth="1.4")
+						img(src=img+"paralax_3_4.png", alt="" class="paralax_3_4" data-depth="1.2")
+						img(src=img+"paralax_3_5.png", alt="" class="paralax_3_5" data-depth="1.3")
+						img(src=img+"paralax_3_6.png", alt="" class="paralax_3_6" data-depth="1.4")
+						img(src=img+"paralax_3_7.png", alt="" class="paralax_3_7" data-depth="1.2")
 					.container
 						.heshteg_black #новости
 						.news_blocks 
-							.news_block 
+							.news_block(data-aos="zoom-in" data-aos-offset="200" data-aos-duration="800")
 								a
 									img(src=img+"img_1.png", alt="")
 								a.news_block_title Выбор сырья
@@ -222,7 +251,7 @@ html
 								a.news_block_btn
 									.news_block_btn_txt Посмотреть
 									img(src=img+"witness_1.svg", alt="")
-							.news_block 
+							.news_block(data-aos="zoom-in" data-aos-offset="350" data-aos-duration="800")
 								a
 									img(src=img+"img_2.png", alt="")
 								a.news_block_title Выбор сырья
@@ -230,7 +259,7 @@ html
 								a.news_block_btn
 									.news_block_btn_txt Посмотреть
 									img(src=img+"witness_1.svg", alt="")
-							.news_block 
+							.news_block(data-aos="zoom-in" data-aos-offset="500" data-aos-duration="800")
 								a
 									img(src=img+"img_3.png", alt="")
 								a.news_block_title Выбор сырья
@@ -238,7 +267,7 @@ html
 								a.news_block_btn
 									.news_block_btn_txt Посмотреть
 									img(src=img+"witness_1.svg", alt="")
-							.news_block 
+							.news_block(data-aos="zoom-in" data-aos-offset="650" data-aos-duration="800")
 								a
 									img(src=img+"img_4.png", alt="")
 								a.news_block_title Выбор сырья
@@ -247,8 +276,9 @@ html
 									.news_block_btn_txt Посмотреть
 									img(src=img+"witness_1.svg", alt="")
 						.join_fl
-							.join_block_l lol
-							.join_block_r
+							.join_block_l
+								img(src=img+"join_img.png", alt="")
+							.join_block_r(data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000")
 								.heshteg_grey #присоединяйтесь
 								.join_block_r_title Постройте выгодный бизнес с ОКРАИНОЙ!
 								.p_main Задайте свой вопрос нашему менеджеру прямо сейчас:

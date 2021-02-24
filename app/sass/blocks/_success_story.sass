@@ -1,6 +1,8 @@
 .fl_1
     display: flex
 .fl_1 img
+    max-width: 670px
+    max-height: 532px
     margin-right: 19px
 .fl_2
     margin-top: 40px
@@ -43,16 +45,55 @@
 .success_story_title_2
     height: 173px
     overflow: auto
-
+.flex_slider_nav
+    display: flex
+.slider-nav-btn
+    margin-top: -105px
+    margin-left: 115px
+    display: flex
+    z-index: 9999
+    .arrow_prev
+        margin-right: 17px
+        border-radius: 0px 40px 40px 40px
+    .arrow_next
+        border-radius: 40px 0px 40px 40px
+    a
+        width: 72px
+        height: 72px
+        background: $black
+        display: flex
+        align-items: center
+        justify-content: center
+        cursor: pointer
+        &:hover
+            background: #00B1EB
 .slider-nav 
-    max-width: 500px !important
-    margin-left: 20px
-    margin-top: -245px
-    margin-left: 750px
-    .slick-track
-        margin-right: inherit
-        .slick-slide
-            max-width: 179px
-            max-height: 248px
-            margin-right: 50px
+    margin-top: -185px
+    margin-left: 650px
+    max-width: 650px
+    .slick-list
+        overflow: hidden
+        .slick-track
+            .sl 
+                position: relative
+                text-align: left
+                .slider-nav_title
+                    position: absolute
+                    top: 40px
+                    background: #00B1EB
+                    border-radius: 0px 30px 30px 30px
+                    width: 189px
+                    height: 45px
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    font-weight: bold
+                    font-size: 16px
+                    line-height: 20px
+                    color: white
+                img
+                    width: 317px
+                    height: 181px
+                    max-width: 317px
+                    max-height: 181px
     

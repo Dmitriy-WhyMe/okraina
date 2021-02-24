@@ -23,6 +23,7 @@
     "gulp-uglify": "^3.0.2"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "smooth-scrollbar": "^8.6.0"
   }
 }
