@@ -17,7 +17,9 @@
 			prevArrow: $('.arrow_prev'),
 			nextArrow: $('.arrow_next')
 		  });
-		AOS.init();
+		AOS.init({
+			disable: 'mobile'
+		});
 		var scene_1 = document.getElementById('scene_1');
 		var parallaxInstance_1 = new Parallax(scene_1);
 		var scene_2 = document.getElementById('scene_2');

@@ -16,6 +16,26 @@
         img
             width: 115%
 @include max-screen(1600px)
+    .magazine_block_rows 
+        .row
+            font-size: 14px
+            .bold_600
+                font-size: 14px
+    .corner_block_rows 
+        .row
+            font-size: 14px
+            .bold_600
+                font-size: 14px
+    .magazine_block_rows 
+        .row_1
+            font-size: 14px
+            .bold_600_green
+                font-size: 14px
+    .corner_block_rows 
+        .row_1
+            font-size: 14px
+            .bold_600_green
+                font-size: 14px
     .paralax_1_6
         left: 1248px !important
     .paralax_2_3
@@ -74,9 +94,10 @@
             margin-right: 85px
 @include max-screen(1440px)
     .paralax_1_6
-        left: 1095px !important
-    .paralax_1_7
+        left: 1085px !important
         top: 450px !important
+    .paralax_1_7
+        top: 400px !important
         left: 1300px !important
     .paralax_2_3
         top: 270px !important
@@ -84,17 +105,19 @@
     .paralax_2_2
         top: 985px !important
         left: 700px !important
-@include max-screen(1366px)
+    .fotter .container
+        padding-left: 80px
+@include max-screen(1400px)
     .paralax_1_6
-        left: 1022px !important
+        left: 1050px !important
     .paralax_1_7
-        top: 430px !important
+        top: 410px !important
         left: 1220px !important
     .paralax_2_3
-        top: 270px !important
+        top: 250px !important
         left: 1200px !important
     .paralax_2_2
-        top: 985px !important
+        top: 960px !important
         left: 700px !important
     .container
         max-width: 1230px
@@ -186,6 +209,18 @@
                 margin-top: 60px
                 max-width: 645px
                 width: 100%
+@include max-screen(1366px)
+    .paralax_1_6
+        left: 1022px !important
+    .paralax_1_7
+        top: 430px !important
+        left: 1220px !important
+    .paralax_2_3
+        top: 270px !important
+        left: 1200px !important
+    .paralax_2_2
+        top: 985px !important
+        left: 700px !important
 @include max-screen(1280px)
     .paralax_1_6
         left: 925px !important
@@ -203,6 +238,13 @@
     .fotter_block_2
         margin-left: -200px
 @include max-screen(1024px)
+    .menu
+        max-width: 430px
+        margin-right: 0px
+    .header-social
+        margin-left: 40px
+    .header-phone
+        margin-left: 15px
     .parallax_1, .parallax_2, .parallax_3
         display: none
     .container
@@ -262,7 +304,33 @@
         margin-left: 0px
     .model_block_l_cart
         margin-right: 0px
+    .success_story_title_2
+        margin-top: 10px
+        height: 172px
+    .success_story_title_1
+        flex-direction: column
+        align-items: baseline
+        .btn_main
+            margin-top: 10px
+    .corporate_network_right img
+        width: 900px
+        max-width: auto
+        margin-left: -50px
+        margin-top: -50px
+    .join_fl
+        margin-top: -150px
+        .join_block_l
+            img
+                margin-top: 200px
 @include max-screen(834px)
+    .menu
+        max-width: 290px
+    .header-social
+        margin-left: 10px
+    .header-phone-txt
+        font-size: 18px
+    .corporate_network_right
+        display: none
     .corporate_network_image_block 
         margin-top: 20px
         img
@@ -316,3 +384,268 @@
             margin-bottom: 10px
     .news_block a img
         max-width: 370px
+    .join_fl
+        align-items: center
+        flex-direction: column
+        .join_block_l 
+            img
+                margin-top: 100px
+    .join_fl .join_block_r
+        padding-top: 50px
+    .fotter .container
+        padding-left: 100px
+    .fotter_block_1, .fotter_block_2
+        font-size: 14px
+        line-height: 24px
+    .fotter_block_1 
+        .fotter_tell img 
+            margin-right: 5px
+    .fotter_block_2
+        .fotter_tell img
+            margin-right: 5px
+    .fotter_block_1 
+        .fotter_mail 
+            img
+                margin-right: 5px
+@include max-screen(768px)
+    .menu
+        max-width: 220px
+    .corporate_network_image_block img
+        max-width: 230px
+    .about_fl img
+        max-width: 350px
+        max-height: 280px
+    .model_fl div
+        max-width: 235px
+    .model_block_l_cart, .model_block_r_cart
+        width: 700px
+    .magazine, .corner
+        left: 220px
+    .magazine_title, .corner_title
+        margin-left: -60px
+    .magazine_block_rows hr, .corner_block_rows hr
+        margin-left: 0px
+    .slider-nav-btn
+        margin-left: 650px
+    .news_blocks 
+        .news_block
+            max-width: 350px
+@include max-screen(767px)
+    .header
+        flex-direction: column
+    .reverse
+        flex-direction: column-reverse
+    .main-nav
+        justify-content: center
+        padding: 0
+    .main-menu-btn
+        margin: 0
+        margin-top: 5px
+        margin-bottom: 5px
+    .header-social
+        margin-bottom: 10px
+    .fotter .container
+        flex-direction: column
+    .corporate_network_left h1
+        font-size: 60px
+        line-height: 68px
+    .corporate_network_left .flex_corporate_network
+        margin-top: 20px
+        flex-direction: column
+    .flex_corporate_network
+        a
+            margin-top: 20px
+    .corporate_network_left .p_dop_1
+        margin-bottom: 20px
+        max-width: 300px
+    .corporate_number_l
+        max-width: 129px
+        width: 100%
+        font-size: 20px
+        line-height: 40px
+    .corporate_number_r
+        max-width: 482px
+        width: 100%
+        font-size: 18px
+    .corporate_number_r .corporate_number_top
+        font-size: 18px
+    .corporate_number_r .price_span
+        font-size: 36px
+        line-height: 50px
+    .corporate_number_r span
+        font-size: 36px
+        line-height: 50px
+    .corporate_number_r .mounth_span
+        font-size: 22px
+        line-height: 40px
+    .corporate_network_image_block
+        flex-direction: column
+    .corporate_network_image_block img
+        max-width: 400px
+        margin-bottom: 10px
+    .oblast_block
+        flex-direction: column
+    .oblast_block_l
+        flex-direction: row
+        flex-wrap: wrap
+        a
+            margin-right: 5px
+    .oblast_block_r .len_oblast_flex
+        flex-wrap: wrap
+    .about_fl
+        flex-direction: column
+        img
+            max-width: 400px
+    .model_fl div
+        max-width: 185px
+        margin-bottom: 10px
+    .model_block_l_cart, .model_block_r_cart
+        width: 390px
+        img
+            display: none
+    .magazine, .corner
+        left: 0
+        top: 20px
+    .magazine_block_title, .corner_block_title
+        flex-direction: column
+    .magazine_title, .corner_title
+        margin-left: 30px
+    .corner_metr, .magazine_metr
+        margin-top: 10px
+    .magazine_block_rows, .corner_block_rows
+        margin-top: 10px
+    .fl_1
+        flex-direction: column
+        img
+            margin-right: 0
+    .fl_2
+        margin-top: 0px
+        margin-left: 20px
+    .slider-nav-btn
+        margin-top: 10px
+        margin-left: 20px
+    .success_story_title_2
+        padding-right: 20px
+    .news
+        margin-top: -520px
+    .join_fl 
+        .join_block_l 
+            img
+                margin-top: 120px
+    .join_block_r 
+        .flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
+            .btn_main
+                margin-top: 10px
+                margin-left: -20px
+        .join_block_r_title
+            font-size: 26px
+            line-height: 34px
+        .p_main_fl
+            margin-bottom: 10px
+    .news
+        padding-bottom: 100px
+    .fotter
+        background: white
+        margin-top: -50px
+        .container
+            padding-top: 10px
+            padding-left: 15px
+            padding-bottom: 10px
+    .fotter_block_1 
+        .fotter_mail
+            margin-bottom: 12px
+    .fotter_block_3 
+        .fotter_social
+            margin-top: 10px
+            margin-bottom: 10px
+            justify-content: center
+            a
+                margin-right: 10px
+    .fotter_block_3 
+        .fotter_reserch 
+            text-align: left
+    .fotter_block_3 
+        .fotter_politics
+            text-align: left
+@include max-screen(375px)
+    .corporate_number_l
+        margin-right: 10px
+    .corporate_number_r
+        margin-right: 10px
+    .corporate_number_r
+        .corporate_number_top
+            padding-left: 10px
+    .corporate_number_r 
+        .corporate_number_bot
+            padding-left: 10px
+    .model_fl_1
+        margin-left: -10px
+    .model_block_l a, .model_block_r a
+        width: 300px
+    .model_fl div
+        max-width: 165px
+        font-size: 16px
+        .number
+            font-size: 26px
+@include max-screen(320px)
+    .corporate_network_left 
+        h1
+            font-size: 50px
+            line-height: 58px
+    .corporate_network_left 
+        .flex_corporate_network 
+            input
+                width: 300px
+            a
+                margin-left: 10px
+    .corporate_number_r .corporate_number_top
+        padding-left: 5px
+        font-size: 18px
+        line-height: 28px
+    .corporate_number_r .corporate_number_bot
+        padding-left: 5px
+        font-size: 18px
+        line-height: 28px
+    .corporate_number_r .price_span
+        font-size: 28px
+        line-height: 38px
+    .corporate_number_r span
+        font-size: 28px
+        line-height: 20px
+    .corporate_number_r .mounth_span
+        font-size: 18px
+        line-height: 20px
+    .corporate_number_r .corporate_number_bot
+        padding-top: 25px
+    .corporate_number_r 
+        margin-right: 20px
+    .model_fl div
+        max-width: 140px
+    .model_fl div .number
+        font-size: 24px
+    .model_block_l_cart, .model_block_r_cart
+        width: 300px
+    .magazine_title, .corner_title
+        margin-left: -10px
+        width: 320px
+    .magazine_block_rows, .corner_block_rows
+        margin-left: 0px
+        padding-left: 5px
+    .magazine_block_rows hr, .corner_block_rows hr
+        margin-left: -5px
+        margin-right: 10px
+    .corner_block_rows .row, .corner_block_rows .row_1
+        font-size: 12px
+    .corner_block_rows 
+        .row 
+            .bold_600
+                font-size: 12px
+    .corner_block_rows 
+        .row_1
+            .bold_600_green
+                font-size: 12px
+
+    
