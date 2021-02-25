@@ -26,6 +26,10 @@
 		var parallaxInstance_2 = new Parallax(scene_2);
 		var scene_3 = document.getElementById('scene_3');
 		var parallaxInstance_3 = new Parallax(scene_3);
+		$('input[type="tel"]').inputmask({
+			mask: "+7 ([9][9][9]) [9][9][9]-[9][9]-[9][9]",
+			greedy: false
+		});
 	});
 })(jQuery);
 
