@@ -20,7 +20,7 @@ var path = {
 		gulpfile: './gulpfile.js',
 		js: './app/js/',
 		jsLibs: ['./app/libs/smartmenus/jquery.smartmenus.min.js', './app/libs/slick-carousel/slick/slick.min.js', './app/libs/Magnific-Popup-master/dist/jquery.magnific-popup.js', './app/libs/aos-master/dist/aos.js', './app/libs/inputmask/dist/jquery.inputmask.bundle.js'],
-		cssLibs: ['./app/libs/smartmenus/css/sm-core-css.css', './app/libs/smartmenus/css/sm-clean/sm-clean.css', './app/libs/slick-carousel/slick/slick.css', './app/libs/Magnific-Popup-master/dist/magnific-popup.css', './app/libs/aos-master/dist/aos.css', './app/libs/inputmask/css/inputmask.css'],
+		cssLibs: ['./app/libs/smartmenus/css/sm-core-css.css', './app/libs/smartmenus/css/sm-clean/sm-clean.css', './app/libs/slick-carousel/slick/slick.css', './app/libs/aos-master/dist/aos.css', './app/libs/inputmask/css/inputmask.css', './app/libs/Magnific-Popup-master/dist/magnific-popup.css'],
 		deleteLibs: ['./app/js/libs.js', './app/css/libs.css']
 	}
 }

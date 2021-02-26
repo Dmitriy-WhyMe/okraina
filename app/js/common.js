@@ -30,6 +30,35 @@
 			mask: "+7 ([9][9][9]) [9][9][9]-[9][9]-[9][9]",
 			greedy: false
 		});
+		$("#main-menu").on("click","a", function (event) {
+			event.preventDefault();
+			var id  = $(this).attr('href'),
+				top = $(id).offset().top;
+			$('body,html').animate({scrollTop: top}, 1500);
+		});
+		$("#scroll").on("click","a", function (event) {
+			event.preventDefault();
+			var id  = $(this).attr('href'),
+				top = $(id).offset().top;
+			$('body,html').animate({scrollTop: top}, 1500);
+		});
+		$("#scroll_2").on("click","a", function (event) {
+			event.preventDefault();
+			var id  = $(this).attr('href'),
+				top = $(id).offset().top;
+			$('body,html').animate({scrollTop: top}, 1500);
+		});
+		$("#scroll_3").on("click","a", function (event) {
+			event.preventDefault();
+			var id  = $(this).attr('href'),
+				top = $(id).offset().top;
+			$('body,html').animate({scrollTop: top}, 1500);
+		});
+		jQuery(document).ready(function($) {
+			$('#pop').magnificPopup({
+				type: 'inline'
+			});
+		});
 	});
 })(jQuery);
 
