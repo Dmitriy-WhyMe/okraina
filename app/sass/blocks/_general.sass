@@ -70,17 +70,111 @@ body
 	color: #FFFFFF
 	&:hover
 		background: linear-gradient(87.43deg, #F44900 0%, #E59B0D 54.18%, #FAC60C 98.58%)
+.pop_partnership
+	display: flex
+	justify-content: center
+	flex-direction: column
+	align-items: center
+	padding-top: 60px
+	padding-left: 60px
+	padding-right: 60px
 .white-popup
 	position: relative
 	background: #FFF
 	padding: 20px
 	width: auto
-	max-width: 532px
-	max-height: 690px
+	max-width: 690px
+	width: 100%
+	max-height: 800px
+	height: 100%
 	margin: 20px auto
 	border-radius: 25px
+	
+	.heshteg_black
+		text-align: center
+		margin-bottom: 22px
+	.partnership_p
+		margin-bottom: 44px
+		font-weight: 600
+		font-size: 18px
+		line-height: 22px
+		text-align: center
+	form
+		margin-bottom: 13px
+		align-items: center
+		position: relative
+		svg
+			position: absolute
+			z-index: 2
+			left: 25px
+			bottom: 12px
+			transform: translate(0, -50%)
+			cursor: pointer
+	input
+		border: 2px solid #4D434B
+		border-radius: 53px
+		margin-right: 22px
+		background-color: inherit
+		padding: 0 30px 0 0
+		width: 347px
+		height: 71px
+		padding-left: 80px
+		font-weight: 500
+		font-size: 16px
+		line-height: 20px
+		color: #4D434B
+	.btn_main
+		margin-left: -20px
+		margin-top: 29px
+.partnership_p_dop
+	margin-top: 13px
+	max-width: 350px
+	text-align: center
 .mfp-hide
 	display: none
-.mfp-content
-	
+.pop_news
+	padding-left: 40px
+	padding-right: 40px
+	position: relative
+	background: #FFF
+	padding: 20px
+	width: auto
+	max-width: 1248px
+	width: 100%
+	max-height: 800px
+	height: 100%
+	margin: 0 auto
+	border-radius: 25px
+.pop_news_fl
+	display: flex
+	img
+		max-height: 210px
+.pop_news_fl_l
+	margin-right: 45px
+	display: flex
+	flex-direction: column
+	max-width: 474px
+.pop_news_fl_r_title
+	font-weight: bold
+	font-size: 25px
+	line-height: 130%
+	color: $black
+	margin-top: 10px
+	margin-bottom: 20px
+.pop_news_fl_r_txt, .pop_news_fl_p
+	color: $black
+	font-weight: 500
+	font-size: 13px
+	line-height: 196.5%
+.pop_news_fl_p
+	margin-top: 30px
+@include max-screen(768px)
+	.pop_news_fl_l
+		display: none
+	.pop_news
+		max-height: 1500px
+@include max-screen(767px)
+	.pop_news
+		max-height: 100%
+		
 

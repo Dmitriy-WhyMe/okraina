@@ -59,6 +59,35 @@
 				type: 'inline'
 			});
 		});
+		jQuery(document).ready(function($) {
+			$('#pop_1').magnificPopup({
+				type: 'inline'
+			});
+		});
+		jQuery(document).ready(function($) {
+			$('#pop_2').magnificPopup({
+				type: 'inline'
+			});
+		});
+		jQuery(document).ready(function($) {
+			$('#pop_3').magnificPopup({
+				type: 'inline'
+			});
+		});
+		jQuery(document).ready(function($) {
+			$('#pop_4').magnificPopup({
+				type: 'inline'
+			});
+			$('#pop_5').magnificPopup({
+				type: 'inline'
+			});
+			$('#pop_6').magnificPopup({
+				type: 'inline'
+			});
+			$('#pop_7').magnificPopup({
+				type: 'inline'
+			});
+		});
 	});
 })(jQuery);
 
